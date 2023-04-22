@@ -15,4 +15,4 @@ fiyat=float(fiyat1[0])
 print(baslik)
 print(fiyat)
 if fiyat<20.000:
-    requests.get("https://api.telegram.org/bot<Token>?chat_id=<chat_id>&text=İstediğiniz:"+baslik +" fiytatı "+ str(fiyat)+" TL'ye düşmüştür.")
+    requests.get("https://api.telegram.org/bot<Token>?chat_id=<chat_id>&text=İstediğiniz:"+baslik +" fiyatı "+ str(fiyat)+" TL'ye düşmüştür.")
